@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   foo-test:
   - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2026-01-04T15:45:43.356023505Z"
+    description: Foo bar
+    digest: 4485087835d362e4882f2998f7f069d07f4fded420951509421112044a2bdddb
+    name: foo-test
+    type: application
+    urls:
+    - foo-test-0.0.1.tgz
+    version: 0.0.1
+  - apiVersion: v2
     appVersion: latest
-    created: "2026-01-04T15:27:15.480548006Z"
+    created: "2026-01-04T15:45:43.355903842Z"
     description: Foo bar
     digest: 651fcb8c7875640fe7ce51e3bd1df4ff7038861da31a8cfaaced7a6e8fc8b4ef
     name: foo-test
@@ -11,4 +21,4 @@ entries:
     urls:
     - foo-test-0.0.0.tgz
     version: 0.0.0
-generated: "2026-01-04T15:27:15.480036878Z"
+generated: "2026-01-04T15:45:43.355326156Z"
