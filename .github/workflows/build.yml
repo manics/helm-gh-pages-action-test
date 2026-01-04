@@ -3,9 +3,6 @@ on:
   push:
   pull_request:
 
-env:
-  COMMIT_USER: manics-bot
-
 jobs:
   helm-chart:
     name: Publish chart
