@@ -1,0 +1,7 @@
+title: helm-gh-pages-action-test
+description: Testing helm-gh-pages-action-test
+
+theme: jekyll-theme-minimal
+
+repository: manics/helm-gh-pages-action-test
+data_dir: ./
