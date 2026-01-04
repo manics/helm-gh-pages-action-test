@@ -2,8 +2,19 @@ apiVersion: v1
 entries:
   foo-test:
   - apiVersion: v2
+    appVersion: 0.0.7
+    created: "2026-01-04T18:42:33.466984918Z"
+    description: Foo bar
+    digest: d357b9d107f6666ed57b3fe4422bcf2b1b3c401242d76244a053e6182f4cc73f
+    icon: data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSJiYWNrZ3JvdW5kOiB0cmFuc3BhcmVudDsgYmFja2dyb3VuZC1jb2xvcjogdHJhbnNwYXJlbnQ7IGNvbG9yLXNjaGVtZTogbGlnaHQgZGFyazsiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSIyMDBweCIgaGVpZ2h0PSIyMDBweCIgdmlld0JveD0iLTAuNSAtMC41IDIwMCAyMDAiPjxkZWZzLz48Zz48ZyBkYXRhLWNlbGwtaWQ9IjAiPjxnIGRhdGEtY2VsbC1pZD0iMSI+PGcgZGF0YS1jZWxsLWlkPSJvY3BkTFNtY09kdGwzZndwdGc0Mi01Ij48Zz48cmVjdCB4PSIzMCIgeT0iMzAiIHdpZHRoPSI3MCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiM4MDAwZmYiIHN0eWxlPSJmaWxsOiBsaWdodC1kYXJrKHJnYigxMjgsIDAsIDI1NSksIHJnYigyNTUsIDE1OSwgMjU1KSk7IiBzdHJva2U9Im5vbmUiIHBvaW50ZXItZXZlbnRzPSJhbGwiLz48L2c+PC9nPjxnIGRhdGEtY2VsbC1pZD0ib2NwZExTbWNPZHRsM2Z3cHRnNDItMSI+PGc+PHJlY3QgeD0iMzAiIHk9IjMwIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgcng9IjIxIiByeT0iMjEiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwMDAwMCIgc3R5bGU9InN0cm9rZTogbGlnaHQtZGFyayhyZ2IoMCwgMCwgMCksIHJnYigyNTUsIDI1NSwgMjU1KSk7IiBzdHJva2Utd2lkdGg9IjIwIiBwb2ludGVyLWV2ZW50cz0iYWxsIi8+PC9nPjwvZz48L2c+PC9nPjwvZz48L3N2Zz4=
+    name: foo-test
+    type: application
+    urls:
+    - foo-test-0.0.7.tgz
+    version: 0.0.7
+  - apiVersion: v2
     appVersion: 0.0.6
-    created: "2026-01-04T18:18:06.434793051Z"
+    created: "2026-01-04T18:42:33.466836391Z"
     description: Foo bar
     digest: 4a77749623de38e29085f4ec5182afb196161b31870223bd27c19db39c39162c
     icon: https://www.manicstreetpreacher.co.uk/helm-gh-pages-action-test/icon.svg
@@ -14,7 +25,7 @@ entries:
     version: 0.0.6
   - apiVersion: v2
     appVersion: 0.0.5
-    created: "2026-01-04T18:18:06.434633755Z"
+    created: "2026-01-04T18:42:33.466736304Z"
     description: Foo bar
     digest: 1932c5a1155107450468a05dbcbe14e25bb38067fca714e87a6fa4991c190a84
     name: foo-test
@@ -24,7 +35,7 @@ entries:
     version: 0.0.5
   - apiVersion: v2
     appVersion: 0.0.4
-    created: "2026-01-04T18:18:06.434445394Z"
+    created: "2026-01-04T18:42:33.46663224Z"
     description: Foo bar
     digest: e2bedb5b6798572da99a153ac3fd3e2b43fa600195b744a61033f2bac22528a3
     name: foo-test
@@ -34,7 +45,7 @@ entries:
     version: 0.0.4
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2026-01-04T18:18:06.434033691Z"
+    created: "2026-01-04T18:42:33.466262251Z"
     description: Foo bar
     digest: 500f489c618adfaceaefbbf69f1ce5f68cd8d1730d8bebdb10fb79a0753e6cc1
     name: foo-test
@@ -44,7 +55,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: 0.0.2
-    created: "2026-01-04T18:18:06.433856582Z"
+    created: "2026-01-04T18:42:33.46613828Z"
     description: Foo bar
     digest: 91e884b70524f03d6848150a47c6fb4ec4c192b5da16b00ef70362e1adeea94c
     name: foo-test
@@ -54,7 +65,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2026-01-04T18:18:06.433665085Z"
+    created: "2026-01-04T18:42:33.465813914Z"
     description: Foo bar
     digest: 4485087835d362e4882f2998f7f069d07f4fded420951509421112044a2bdddb
     name: foo-test
@@ -64,7 +75,7 @@ entries:
     version: 0.0.1
   - apiVersion: v2
     appVersion: latest
-    created: "2026-01-04T18:18:06.433477697Z"
+    created: "2026-01-04T18:42:33.465586029Z"
     description: Foo bar
     digest: 651fcb8c7875640fe7ce51e3bd1df4ff7038861da31a8cfaaced7a6e8fc8b4ef
     name: foo-test
@@ -72,4 +83,4 @@ entries:
     urls:
     - foo-test-0.0.0.tgz
     version: 0.0.0
-generated: "2026-01-04T18:18:06.432721469Z"
+generated: "2026-01-04T18:42:33.464974166Z"
