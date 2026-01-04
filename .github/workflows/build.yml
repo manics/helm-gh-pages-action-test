@@ -25,3 +25,4 @@ jobs:
         uses: manics/helm-gh-pages-action@main
         with:
           chart-dir: chart
+          git-username: manics-bot
