@@ -4,3 +4,4 @@ description: Foo bar
 type: application
 version: 0.0.0
 appVersion: latest
+icon: https://www.manicstreetpreacher.co.uk/helm-gh-pages-action-test/icon.svg
