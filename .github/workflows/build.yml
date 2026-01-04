@@ -10,6 +10,7 @@ jobs:
   helm-chart:
     name: Publish chart
     runs-on: ubuntu-24.04
+    if: startsWith(github.ref, 'refs/tags/')
     permissions:
       contents: write
 
@@ -18,7 +19,6 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Update Chart.yaml version with tag
-        if: startsWith(github.ref, 'refs/tags/')
         run: |
           export VERSION=${{ github.ref_name }}
           yq --inplace '.version = env(VERSION), .appVersion = env(VERSION)' helm-chart/Chart.yaml
@@ -28,4 +28,3 @@ jobs:
         uses: manics/helm-gh-pages-action@main
         with:
           chart-dir: chart
-          push: ${{ startsWith(github.ref, 'refs/tags/') }}
