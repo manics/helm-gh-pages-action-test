@@ -1,6 +1,0 @@
-apiVersion: v2
-name: foo-test
-description: Foo bar
-type: application
-version: 0.0.0
-appVersion: latest
