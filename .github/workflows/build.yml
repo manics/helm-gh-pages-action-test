@@ -28,4 +28,4 @@ jobs:
         uses: manics/helm-gh-pages-action@main
         with:
           chart-dir: chart
-          push: "true"
+          push: ${{ startsWith(github.ref, 'refs/tags/') }}
