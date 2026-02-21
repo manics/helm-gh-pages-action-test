@@ -22,7 +22,7 @@ jobs:
           git diff
 
       - name: Publish to gh-pages
-        uses: manics/helm-gh-pages-action@main
+        uses: manics/helm-gh-pages-action@dev
         with:
           chart-dir: chart
           github-user: manics-bot
