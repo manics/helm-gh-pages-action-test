@@ -2,6 +2,17 @@ apiVersion: v1
 entries:
   foo-test:
   - apiVersion: v2
+    appVersion: 0.0.9
+    created: "2026-02-21T16:29:24.631222692Z"
+    description: Foo bar
+    digest: 4525f0d69afcb218488eec09cc4486c70344286d449f835cf2873f3b1476ee34
+    icon: data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSJiYWNrZ3JvdW5kOiB0cmFuc3BhcmVudDsgYmFja2dyb3VuZC1jb2xvcjogdHJhbnNwYXJlbnQ7IGNvbG9yLXNjaGVtZTogbGlnaHQgZGFyazsiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSIyMDBweCIgaGVpZ2h0PSIyMDBweCIgdmlld0JveD0iLTAuNSAtMC41IDIwMCAyMDAiPjxkZWZzLz48Zz48ZyBkYXRhLWNlbGwtaWQ9IjAiPjxnIGRhdGEtY2VsbC1pZD0iMSI+PGcgZGF0YS1jZWxsLWlkPSJvY3BkTFNtY09kdGwzZndwdGc0Mi01Ij48Zz48cmVjdCB4PSIzMCIgeT0iMzAiIHdpZHRoPSI3MCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiM4MDAwZmYiIHN0eWxlPSJmaWxsOiBsaWdodC1kYXJrKHJnYigxMjgsIDAsIDI1NSksIHJnYigyNTUsIDE1OSwgMjU1KSk7IiBzdHJva2U9Im5vbmUiIHBvaW50ZXItZXZlbnRzPSJhbGwiLz48L2c+PC9nPjxnIGRhdGEtY2VsbC1pZD0ib2NwZExTbWNPZHRsM2Z3cHRnNDItMSI+PGc+PHJlY3QgeD0iMzAiIHk9IjMwIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgcng9IjIxIiByeT0iMjEiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwMDAwMCIgc3R5bGU9InN0cm9rZTogbGlnaHQtZGFyayhyZ2IoMCwgMCwgMCksIHJnYigyNTUsIDI1NSwgMjU1KSk7IiBzdHJva2Utd2lkdGg9IjIwIiBwb2ludGVyLWV2ZW50cz0iYWxsIi8+PC9nPjwvZz48L2c+PC9nPjwvZz48L3N2Zz4=
+    name: foo-test
+    type: application
+    urls:
+    - foo-test-0.0.9.tgz
+    version: 0.0.9
+  - apiVersion: v2
     appVersion: 0.0.8
     created: "2026-02-21T16:26:57.843289185Z"
     description: Foo bar
@@ -94,4 +105,4 @@ entries:
     urls:
     - foo-test-0.0.0.tgz
     version: 0.0.0
-generated: "2026-02-21T16:26:57.842267246Z"
+generated: "2026-02-21T16:29:24.630955852Z"
